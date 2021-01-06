@@ -24,16 +24,16 @@ The SEN0240 control board should look like this.
 | 1       | Data port         | Arduino A0 pin        |
 | 2       | Anode             | Arduino 3V or 5V power|
 | 3       | Cathode           | Arduino GND           |
-| 4       | Censor Connector  | Censor port           |
+| 4       | Sensor Connector  | Sensor port           |
 
 The connection to the Arduino should now look something like this.
 
 ![](img/Emg_schema.png)
 
-## Censor position
+## Sensor position
 
-You can place the EMG censor on any large enough muscle. The censor's surface and the skin should be dry.
-The 3 electrodes of the censor should be place in alignement of the muscle and be pressed against the skin.
+You can place the EMG sensor on any large enough muscle. The sensor's surface and the skin should be dry.
+The 3 electrodes of the sensor should be place in alignement of the muscle and be pressed against the skin.
 
 ## Code execution
 
@@ -45,19 +45,19 @@ The 3 electrodes of the censor should be place in alignement of the muscle and b
 5. Click the verify icon to check for errors.
 6. Upload the code to your board. The code is running as soon as it is uploded.
 
-### Censor calibration
+### Sensor calibration
 1. Open the serial monitor under **Tools > Serial Monitor** and completly relax your muscle.
 2. You should see something similar to this:
 
 ![](img/Calibration.png)
 
-If your values are higher than 1500 you should try to disharge yourself of any static electricity and/or find another censor placement more in contact with skin and muscle.
+If your values are higher than 1500 you should try to disharge yourself of any static electricity and/or find another sensor placement more in contact with skin and muscle.
 
 3. Change this variable to the highest value recorded in the serial monitor.
 ```C
 static int Threshold = 0;
 ```
-The censor is now calibrated. You can now upload the code to the bord agin and test the censor by contracting your muscle while looking to the serial plotter under **Tools > Serial Plotter**.
+The sensor is now calibrated. You can now upload the code to the bord agin and test the sensor by contracting your muscle while looking to the serial plotter under **Tools > Serial Plotter**.
 
 ## Some advices
 
