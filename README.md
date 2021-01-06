@@ -1,4 +1,11 @@
 # SEN0240_Demo
-Simple demo to test SEN0240 Module
+This repository contains code and documentation on how to collect data from an SEN0240 Electromyography sensor.
+With this repoitory you should be able to visualise simple muscle contravtion.
+
+## Hardware needed
+A [SEN0240](https://www.dfrobot.com/product-1661.html) is needed to get muscle contraction info.
+An [Arduino](https://store.arduino.cc/) to compute data from SEN0240.
+
+## Connection
 
 ![](img/Emg_schema.png)
