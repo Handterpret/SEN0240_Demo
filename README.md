@@ -11,7 +11,7 @@ An [Arduino](https://store.arduino.cc/) (or similar) to compute data from SEN024
 
 If you are using a clone of arduino please download firmware to detect device in Arduino firmware.
 
-It should now appear fine in [Arduino IDE](https://www.arduino.cc/en/Main/OldSoftwareReleases) under tools => port.
+It should now appear fine in [Arduino IDE](https://www.arduino.cc/en/Main/OldSoftwareReleases) under **tools > port**.
 
 ## Connection
 
