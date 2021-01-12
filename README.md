@@ -61,4 +61,4 @@ The sensor is now calibrated. You can now upload the code to the bord agin and t
 
 ## Some advices
 
-TBD
+Try not to plug the data from the sensor on the A0 pin.
